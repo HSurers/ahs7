@@ -1,0 +1,12 @@
+{
+  "name": "ahs7",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+
+  "proxies":[{
+    "path": "/about",
+    "proxyUrl": "https://www.google.com/about/"
+
+}]}

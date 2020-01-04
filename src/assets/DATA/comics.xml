@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sonuc>
+<hataKodu>0</hataKodu>
+<fatura>
+<sorguNo>180</sorguNo>
+<faturaSahibi>E********* S****</faturaSahibi>
+<faturaNo>0201010204589900</faturaNo>
+<sonOdemeTarihi>22.11.2010</sonOdemeTarihi>
+<tutar>19.89</tutar>
+<komisyon>0.2</komisyon>
+</fatura>
+<fatura>
+<sorguNo>181</sorguNo>
+<faturaSahibi>E********* S****</faturaSahibi>
+<faturaNo>0201030208518800</faturaNo>
+<sonOdemeTarihi>22.10.2010</sonOdemeTarihi>
+<tutar>23.54</tutar>
+<komisyon>0.2</komisyon>
+</fatura>
+</sonuc>

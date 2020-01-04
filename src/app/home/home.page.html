@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      films
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+    <ion-button epand="block" (click)="getDataStandart()">get standart</ion-button>
+    <ion-button epand="block" (click)="getDataNativeHttp()">get native</ion-button>
+    <ion-button epand="block" (click)="getDataEveryWere()">get every</ion-button>
+
+    <ion-list>
+      <ion-item button detail lines="inset" *ngFor="let film of data">
+        {{film.title}}
+      </ion-item>
+      <p>If you get lost, the <a target="_blank" rel="noopener" href="/about">docs</a> will be your guide.</p>
+    </ion-list>
+    <ion-item-group>
+      <ion-item-divider color="light">XML</ion-item-divider>
+      <ion-item *ngFor="let item of xmlItems">
+         {{ item.title }}
+      </ion-item>
+   </ion-item-group>
+</ion-content>
